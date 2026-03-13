@@ -1,0 +1,134 @@
+name: pro_connect
+description: Company management platform
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ==========================
+  # 🔥 FIREBASE (OLD – KEPT)
+  # ==========================
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  firebase_storage: ^13.0.6
+
+  # ==========================
+  # 🧠 STATE MANAGEMENT
+  # ==========================
+  provider: ^6.1.1            # OLD (kept for legacy code)
+  flutter_riverpod: ^3.2.1    # NEW
+  riverpod_annotation: ^4.0.2
+
+  # ==========================
+  # 🧭 ROUTING (NEW – OPTIONAL)
+  # ==========================
+  go_router: ^17.1.0
+
+  # ==========================
+  # 🎨 UI & DESIGN
+  # ==========================
+  cupertino_icons: ^1.0.6
+  google_fonts: ^8.0.2
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+
+  image_picker: ^1.0.7
+
+  # ==========================
+  # 📱 DEVICE / UTILITIES (OLD)
+  # ==========================
+  mobile_scanner: ^7.2.0
+  geolocator: ^14.0.2
+
+  # ==========================
+  # 🔧 UTILITIES (NEW)
+  # ==========================
+  intl: ^0.20.2
+  uuid: ^4.2.2
+  fl_chart: ^1.1.1
+  http: ^1.2.0
+  crypto: ^3.0.3
+  pdf: ^3.10.8
+  share_plus: ^12.0.1
+  open_file: ^3.3.2
+  just_audio: ^0.10.5
+  webview_flutter: ^4.7.0
+  flutter_secure_storage: ^10.0.0
+  url_launcher: ^6.3.2
+  cloud_functions: ^6.0.6
+  webview_flutter_android: ^4.10.13
+  app_links: ^7.0.0
+  table_calendar: ^3.0.9
+  firebase_core_web: ^3.4.0
+  web: ^1.1.1
+  csv: ^5.1.1
+  excel: ^4.0.3
+  # Image slider
+  carousel_slider: ^5.1.2
+  cached_network_image: ^3.3.1
+  firebase_messaging: ^16.1.1
+  flutter_local_notifications: ^17.0.0
+  record: ^6.0.0                 # ← use v5, not v6
+  permission_handler: ^11.3.1
+  
+
+
+  # ==========================
+  # 📝 FORMS & VALIDATION (NEW)
+  # ==========================
+  # flutter_form_builder: ^9.1.1
+  # form_builder_validators: ^9.1.0
+
+  # ==========================
+  # 🎙️ AUDIO (OPTIONAL – OLD)
+  # ==========================
+  path_provider: ^2.1.2
+  audioplayers: ^6.5.1
+
+  
+  
+
+dependency_overrides:
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # ==========================
+  # 🧬 RIVERPOD CODEGEN (NEW)
+  # ==========================
+  riverpod_generator: ^4.0.3
+  build_runner: ^2.4.7
+  riverpod_lint: ^3.1.3
+
+flutter:
+  uses-material-design: true
+
+  # ==========================
+  # 📦 ASSETS (NEW + READY)
+  # ==========================
+  # assets:
+  # - assets/images/
+  # - assets/icons/
+
+  # ==========================
+  # 🔤 FONTS (OPTIONAL)
+  # ==========================
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
