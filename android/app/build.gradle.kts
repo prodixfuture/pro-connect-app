@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Properties
 import java.io.FileInputStream
 
@@ -9,10 +10,20 @@ plugins {
     id("com.android.application")
     id("com.google.gms.google-services")
     id("kotlin-android")
+=======
+plugins {
+    id("com.android.application")
+    // START: FlutterFire Configuration
+    id("com.google.gms.google-services")
+    // END: FlutterFire Configuration
+    id("kotlin-android")
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
     id("dev.flutter.flutter-gradle-plugin")
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.prodix.proconnect"
     compileSdk = flutter.compileSdkVersion
 
@@ -32,6 +43,12 @@ android {
         abortOnError = false
     }
 
+=======
+
+    namespace = "com.prodix.proconnect"
+    compileSdk = flutter.compileSdkVersion
+
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
     defaultConfig {
         applicationId = "com.prodix.proconnect"
         minSdk = flutter.minSdkVersion
@@ -40,12 +57,15 @@ android {
         versionName = flutter.versionName
     }
 
+<<<<<<< HEAD
     buildTypes {
         release {
             signingConfig = signingConfigs.getByName("release")
         }
     }
 
+=======
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
     compileOptions {
         isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_17
@@ -57,6 +77,7 @@ android {
     }
 }
 
+<<<<<<< HEAD
 flutter {
     source = "../.."
 }
@@ -67,3 +88,12 @@ dependencies {
 
 
 
+=======
+
+flutter {
+    source = "../.."
+}
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+}
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66

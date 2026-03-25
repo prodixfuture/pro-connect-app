@@ -77,7 +77,10 @@ dependencies:
   flutter_local_notifications: ^17.0.0
   record: ^6.0.0                 # ← use v5, not v6
   permission_handler: ^11.3.1
+<<<<<<< HEAD
 
+=======
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
   
 
 
@@ -106,7 +109,10 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^6.0.0
+<<<<<<< HEAD
   flutter_launcher_icons: ^0.14.1
+=======
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
 
   # ==========================
   # 🧬 RIVERPOD CODEGEN (NEW)
@@ -118,6 +124,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+<<<<<<< HEAD
 
 
 flutter_launcher_icons:
@@ -127,6 +134,8 @@ flutter_launcher_icons:
   min_sdk_android: 21
   adaptive_icon_background: "#6366f1"
   adaptive_icon_foreground: "assets/icon/app_icon.png"
+=======
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
   # ==========================
   # 📦 ASSETS (NEW + READY)
   # ==========================

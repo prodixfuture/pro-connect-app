@@ -32,6 +32,7 @@
         "*.local"
       ]
     }
+<<<<<<< HEAD
   ],
   "hosting": {
     "public": "build/web",
@@ -47,4 +48,7 @@
       }
     ]
   }
+=======
+  ]
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
 }

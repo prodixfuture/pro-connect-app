@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:pro_connect/staff/leave/leave_list_screen.dart';
 import 'package:pro_connect/staff/more/staff_my_requests_screen.dart';
+<<<<<<< HEAD
 import 'package:flutter/foundation.dart';
+=======
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
 
 import 'admin/manage/admin_expense_requests_screen.dart';
 import 'admin/manage/admin_management_hub.dart';
@@ -34,6 +37,7 @@ import 'package:webview_flutter_android/webview_flutter_android.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+<<<<<<< HEAD
 
   // WebView - Android മാത്രം
   if (!kIsWeb) {
@@ -41,14 +45,24 @@ Future<void> main() async {
   }
 
   // Firebase init
+=======
+  WebViewPlatform.instance = AndroidWebViewPlatform();
+
+  // 🔥 Firebase init
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
+<<<<<<< HEAD
   // Push Notifications - Web-ൽ വേണ്ട
   if (!kIsWeb) {
     await PushService().initializeNotifications();
   }
+=======
+  // 🔔 Initialize Push Notifications (FCM + Local Notifications)
+  await PushService().initializeNotifications();
+>>>>>>> bf8aa91b4b1bfb71a1e9b475889f50976e4cae66
 
   runApp(const ProConnectApp());
 }
