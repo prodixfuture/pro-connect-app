@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "625431990411",
+    "project_id": "pro-connect-da8ac",
+    "storage_bucket": "pro-connect-da8ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625431990411:android:9e62ae6cd62c2c60ba048e",
+        "android_client_info": {
+          "package_name": "com.prodix.proconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAup5wjtWFo_QVpvNsaZJhocWlHu_dXXGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
